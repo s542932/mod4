@@ -1,6 +1,9 @@
-with open('module4bonustext.txt') as f:
-    text = f.readlines()
 
+file = open("module4bonustext.txt", "rt")
+text = file.read()
+
+    
+    
 word_counts = {}
 
 for word in text.split():
