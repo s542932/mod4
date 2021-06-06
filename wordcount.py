@@ -1,7 +1,9 @@
 
 text = ('this is sample text with several words '
     'this is more sample text with some different words')
-word_counts{}
+
+word_counts = {}
+
 for word in text.split():
     if word in word_counts:
         word_counts[word] += 1
