@@ -8,7 +8,7 @@ for word in text.split():
     if word in word_counts:
         word_counts[word] += 1
     else:
-        word_counts[word} = 1
+        word_counts[word] = 1
         
 print(f'{"WORD":<12}COUNT')
  
