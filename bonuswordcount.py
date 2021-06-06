@@ -1,4 +1,4 @@
-with open('module4bonustext') as f:
+with open('module4bonustext.txt') as f:
     lines = f.readlines()
 
 word_counts = {}
